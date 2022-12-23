@@ -1,0 +1,57 @@
+body {
+  margin:0 0 0 37%;
+  padding: 0;
+  background-color: #FFFBF8;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.left-side {
+  position: fixed;
+  width: 37%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: url(/img/pasta.webp);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.left-side h1{
+  font-size: 42px;
+}
+
+.left-side h2{
+  margin-top: 15%;
+  font-size: 26px;
+}
+
+.f-container p {
+  padding-bottom: 5rem;
+}
+
+.f-container h1 {
+  font-size: 22px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+a{
+  color:rgb(235, 213, 160);
+  text-decoration-color: rgb(235, 213, 160);
+}
+
+.top-and-bottom {
+  font-size: 12px;
+}
